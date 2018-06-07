@@ -3,6 +3,10 @@
 
 $container = $app->getContainer();
 
+$container['IPController'] = function($c) {
+  return new IPController($container);
+};
+
 // view renderer
 $container['renderer'] = function ($c) {
     $settings = $c->get('settings')['renderer'];

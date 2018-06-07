@@ -2,7 +2,7 @@ WELCOME TO THE DEMO
 
 to run the demo first download the source code and spin up two terminals
 
-first terminal- from the root of this folder, go into slimip, install the scripts with composer, and then spin up the server with the default instructions
+first terminal- from the root of this folder, go into slimip, install the scripts with composer, and then spin up the server with php -S localhost:8080 -t public public/index.php
 
 second terminal- from the root of this folder, go into the remot3demo, install the script dependencies with npm, and then spin up the client with npm start
 
